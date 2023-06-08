@@ -17,7 +17,7 @@ const ProductCarousel = () => {
 
   return (
     <>
-      <h2>Top Rated Products</h2>
+      <h1>Top Rated Products</h1>
       {loading ? (
         <Loader />
       ) : error ? (
